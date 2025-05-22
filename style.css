@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.ludo-board {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.player {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.red { background: #ffcccc; }
+.blue { background: #cce0ff; }
+.green { background: #ccffcc; }
+.yellow { background: #ffffcc; }
+
+.dice-section {
+  margin-top: 50px;
+}
+
+#dice-value {
+  font-size: 24px;
+  margin-top: 10px;
+}
