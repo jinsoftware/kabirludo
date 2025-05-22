@@ -2,21 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ludo Lite</title>
+  <title>Ludo Board Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Ludo Lite Game 🎲</h1>
-  <div class="ludo-board">
-    <div class="player red">🔴</div>
-    <div class="player blue">🔵</div>
-    <div class="player green">🟢</div>
-    <div class="player yellow">🟡</div>
+  <h1>Ludo King Clone</h1>
+
+  <div class="board">
+    <!-- RED -->
+    <div class="home red">
+      <div class="player-name">You</div>
+    </div>
+
+    <!-- YELLOW -->
+    <div class="home yellow">
+      <div class="player-name">Computer 3</div>
+    </div>
+
+    <!-- BLUE -->
+    <div class="home blue">
+      <div class="player-name">Computer 4</div>
+    </div>
+
+    <!-- GREEN -->
+    <div class="home green">
+      <div class="player-name">Computer 2</div>
+    </div>
+
+    <!-- Center Area -->
+    <div class="center-star">⭐</div>
   </div>
 
   <div class="dice-section">
     <button onclick="rollDice()">🎲 Roll Dice</button>
-    <div id="dice-value">Roll to begin</div>
+    <div id="dice-value">Dice: -</div>
   </div>
 
   <script src="script.js"></script>
